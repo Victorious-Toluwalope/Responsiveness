@@ -1,0 +1,86 @@
+/* when the screen is 375px or smaller */
+@media only screen and (max-width: 375px) {
+      body {
+        background-image: url(bg-intro-desktop);
+      }
+    }
+    
+body{
+      background-image: url(bg-intro-desktop.png);
+      background-color: #F88379;
+      font-size: 16px;
+      font-family: Poppins;
+}
+main{
+      display: flex;
+      margin: 50px;
+}
+.left{
+      /* border: 1px solid black; */
+      margin: 60px 10px;
+}
+.right{
+      /* border: 1px solid black; */
+      line-height: 50px; 
+      text-align: center;     
+}
+h1, p{
+      color: white;
+}
+.left h1{
+      font-weight: 700;
+      /* font-style: bold; */
+}
+.left p{
+      font-size: 10px;
+      font-weight: 500;
+      /* font-style: bold; */
+
+}
+a{
+      text-decoration: none;
+}
+.right-button-top{
+      background-color: hsl(248, 32%, 49%);
+      color: white;
+      border: none;
+      height: 40px;
+      width: 400px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      box-shadow: 0px 5px 5px 0px grey;
+}
+.right-button-top a{
+      color: white;
+}
+.right-down{
+      background-color: white;
+      border-radius: 10px;
+      width: 400px;
+      text-align: center;
+      box-shadow: 0px 5px 5px 0px grey;
+
+}
+.right-down input{
+      height: 30px;
+      width: 300px;
+}
+
+footer p{
+      color: gray;
+      font-size: 10px;
+}
+footer strong{
+      color: hsl(0, 100%, 74%);
+}
+.right-button-bottom button{
+      background-color: hsl(154, 59%, 51%);
+      border: none;
+      border-radius: 10px;
+      height: 40px;
+      width: 300px;
+}
+.right-button-bottom a{
+      text-transform: uppercase;
+      color: white;
+}
